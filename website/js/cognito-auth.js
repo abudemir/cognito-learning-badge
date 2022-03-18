@@ -99,11 +99,14 @@ var WildRydes = window.WildRydes || {};
             Pool: userPool
         });
     }
-
+/*
     function toUsername(email) {
         return email.replace('@', '-at-');
     }
-
+*/
+    function toUsername(email) {
+      return email;
+    }
     /*
      *  Event Handlers
      */
